@@ -60,11 +60,11 @@ header {
 
 // LOGO CONTAINER
     .logo-container {
-      width: 20%;
-      height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 20%;
+      height: 100%;
 
       img {
         width: 150px;
@@ -89,7 +89,7 @@ header {
 
               a {
                 text-decoration: none;
-                margin: 0 0 0 30px;
+                margin: 0 0 0 25px;
               }
           }
       }
@@ -104,8 +104,7 @@ header {
 
   button {
       border: none;
-      width: 150px;
-      padding: 8px 10px;
+      padding: 8px 30px;
       text-transform: uppercase;
       font-size: .8rem;
     }
