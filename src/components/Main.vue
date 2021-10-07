@@ -5,6 +5,12 @@
        <ConstructionProjectsBottom />
        <Statistics />
        <RecentWork />
+       <CoreValues />
+       <!-- <Slider /> -->
+       <LatestNews />
+       <TrustedPartners />
+
+
 
 
    </main>
@@ -16,6 +22,10 @@ import ConstructionProjectsTop from './ConstructionProjectsTop.vue'
 import ConstructionProjectsBottom from './ConstructionProjectsBottom.vue'
 import Statistics from './Statistics.vue'
 import RecentWork from './RecentWork.vue'
+import CoreValues from './CoreValues.vue'
+// Slider
+import LatestNews from './LatestNews.vue'
+import TrustedPartners from './TrustedPartners.vue'
 
 
 
@@ -27,7 +37,11 @@ export default {
       ConstructionProjectsTop,
       ConstructionProjectsBottom,
       Statistics,
-      RecentWork
+      RecentWork,
+      CoreValues,
+      // Slider,
+      LatestNews,
+      TrustedPartners
   }
 }
 </script>
