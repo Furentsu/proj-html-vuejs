@@ -4,7 +4,8 @@
       <FooterAbout />
       <FooterTweets />
       <FooterContacts :contacts="contacts"/>
-      
+      <FooterMap />
+
 
     </div>
   </footer>
@@ -14,6 +15,8 @@
 import FooterAbout from './FooterAbout.vue'
 import FooterTweets from './FooterTweets.vue'
 import FooterContacts from './FooterContacts.vue'
+import FooterMap from './FooterMap.vue'
+
 
 
 
@@ -23,6 +26,7 @@ export default {
     FooterAbout,
     FooterTweets,
     FooterContacts,
+    FooterMap,
     
     },
     data() {
