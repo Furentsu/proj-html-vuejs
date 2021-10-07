@@ -35,7 +35,7 @@
 import LatestNewsCard from './LatestNewsCard.vue'
 
 export default {
-    name:'ConstructionProjectsBottom',
+    name:'LatestNews',
     components: {
         LatestNewsCard,
     },
