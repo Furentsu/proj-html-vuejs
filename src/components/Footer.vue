@@ -2,6 +2,8 @@
   <footer class="container-flex">
     <div class="row">
       <FooterAbout />
+      <FooterTweets />
+
 
     </div>
   </footer>
@@ -9,11 +11,15 @@
 
 <script>
 import FooterAbout from './FooterAbout.vue'
+import FooterTweets from './FooterTweets.vue'
+
 
 export default {
   name: 'Footer',
   components: {
-    FooterAbout
+    FooterAbout,
+    FooterTweets,
+    
     }
 }
 </script>
