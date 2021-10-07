@@ -9,10 +9,7 @@
        <!-- <Slider /> -->
        <LatestNews />
        <TrustedPartners />
-
-
-
-
+       <FinalJumbotron />
    </main>
 </template>
 
@@ -26,6 +23,8 @@ import CoreValues from './CoreValues.vue'
 // Slider
 import LatestNews from './LatestNews.vue'
 import TrustedPartners from './TrustedPartners.vue'
+import FinalJumbotron from './FinalJumbotron.vue'
+
 
 
 
@@ -41,7 +40,8 @@ export default {
       CoreValues,
       // Slider,
       LatestNews,
-      TrustedPartners
+      TrustedPartners,
+      FinalJumbotron
   }
 }
 </script>

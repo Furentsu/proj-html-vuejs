@@ -1,0 +1,58 @@
+<template>
+    <div class="final-jumbo">
+
+      <!-- Left content of the jumbotron -->
+       <div class="left-content float-start">
+           <div class="content">
+                <h1>Building inspiring spaces</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem repellat, saepe maxime doloribus in voluptatem amet consequuntur beatae aspernatur ut possimus nobis rem, qui at assumenda fuga, quos totam iste!</p>
+           </div>
+       </div>
+
+       <!-- Right content of the jumbotron -->
+       <div class="right-content float-start">
+            <button>Get a free quote</button>
+            <p>Only takes a few seconds!</p>
+       </div>
+   </div>
+</template>
+
+<script>
+export default {
+  name: 'FinalJumbotron',
+}
+</script>
+
+
+<style lang="scss" scoped>
+@import "../style/variables.scss";
+
+.final-jumbo {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-image: url('../assets/images/about-call-to-action-57862405.jpg');
+    background-size: cover;
+    background-position: bottom;
+
+
+    .left-content,
+    .right-content {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-content {
+        .content {
+            text-align: left;
+        }
+    }
+
+}
+
+</style>
