@@ -57,4 +57,10 @@ export default {
 <style lang="scss" scoped>
 @import "../style/variables.scss";
 
+section {
+    border: 1px solid black;
+
+    height: 550px;
+}
+
 </style>

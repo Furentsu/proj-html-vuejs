@@ -49,7 +49,7 @@ export default {
     .jumbo-squares {
         position: absolute;
         top: 10px;
-        right: 10px;
+        right: 15px;
         text-align: center;
 
         .demos,

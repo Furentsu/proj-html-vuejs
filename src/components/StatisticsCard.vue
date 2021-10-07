@@ -5,8 +5,8 @@
         <div class="icon-container">
             <i :class="content.icon"></i>
         </div>
-        <h2>{{content.title}}</h2>
-        <p>{{content.paragraph}}</p>
+        <h2>{{content.number}}</h2>
+        <p>{{content.title}}</p>
     </div>
 </template>
 

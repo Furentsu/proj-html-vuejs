@@ -26,7 +26,7 @@ export default {
 @import "../style/variables.scss";
 
 .construction-projects-top {
-border: 1px solid red;
+    border: 2px solid black;
 
     display: flex;
     position: relative;

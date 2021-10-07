@@ -3,6 +3,9 @@
        <Jumbotron />
        <ConstructionProjectsTop />
        <ConstructionProjectsBottom />
+       <Statistics />
+       <RecentWork />
+
 
    </main>
 </template>
@@ -11,6 +14,10 @@
 import Jumbotron from './Jumbotron.vue'
 import ConstructionProjectsTop from './ConstructionProjectsTop.vue'
 import ConstructionProjectsBottom from './ConstructionProjectsBottom.vue'
+import Statistics from './Statistics.vue'
+import RecentWork from './RecentWork.vue'
+
+
 
 
 export default {
@@ -18,7 +25,9 @@ export default {
   components: {
       Jumbotron,
       ConstructionProjectsTop,
-      ConstructionProjectsBottom
+      ConstructionProjectsBottom,
+      Statistics,
+      RecentWork
   }
 }
 </script>

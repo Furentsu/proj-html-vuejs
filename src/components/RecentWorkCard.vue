@@ -2,11 +2,7 @@
 
     <!-- Card element  -->
     <div class="card col-3">
-        <div class="icon-container">
-            <i :class="content.icon"></i>
-        </div>
-        <h2>{{content.title}}</h2>
-        <p>{{content.paragraph}}</p>
+        <img class="img-fluid" :src="content.image" alt="Recent work">
     </div>
 </template>
 
@@ -24,14 +20,14 @@ export default {
 .card {
     border: 1px solid red;
     
-    height: 200px;
 
-    .icon-container {
-    border: 1px solid blue;
-
-        width: 50px;
-        height: 50px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
     }
+
 }
 
 </style>
