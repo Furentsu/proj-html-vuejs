@@ -1,16 +1,16 @@
 <template>
 
-    <!-- Section containing the offered construction services  -->
+    <!-- Section containing the company's core values  -->
     <section class="container-flex">
-        <div class="row">
-            <div class="col-6">
+        <div class="row d-flex justify-content-center text-center">
+            <div class="p-5 col-6">
                 <h2>Our Core Values</h2>
                 <div class="line"></div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio ea voluptate magni harum quod aperiam nesciunt suscipit placeat iure numquam quaerat ratione, aspernatur enim voluptatum consectetur hic molestias quo ducimus.</p>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row d-flex justify-content-center">
             <ValuesCard v-for="(element,index) in cardsContent" :key="index" :content="element" />
         </div>
         
@@ -29,22 +29,22 @@ export default {
         return {
             cardsContent: [
                 {   
-                    icon: 'fas fa-building',
+                    icon: 'fas fa-home',
                     title: 'Great Services',
                     paragraph: 'lorem'
                 },
                 {   
-                    icon: 'fas fa-sync-alt',
+                    icon: 'fas fa-cog',
                     title: 'Highest Standards',
                     paragraph: 'lorem'
                 },
                 {   
-                    icon: 'fas fa-home',
+                    icon: 'fas fa-users',
                     title: 'Professional Team',
                     paragraph: 'lorem'
                 },
                 {   
-                    icon: 'fas fa-truck',
+                    icon: 'fas fa-lightbulb',
                     title: 'Creative Solutions',
                     paragraph: 'lorem'
                 }
@@ -58,9 +58,17 @@ export default {
 @import "../style/variables.scss";
 
 section {
-    border: 1px solid black;
+    height: 600px;
+    background-color: rgba($silver,.2);
 
-    height: 550px;
+    h2 {
+        padding: 50px 0 20px 0;
+        color: $tuatara;
+    }
+
+    p {
+        color: $doveGrey;
+    }
 }
 
 </style>

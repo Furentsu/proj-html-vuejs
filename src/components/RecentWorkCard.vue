@@ -1,7 +1,7 @@
 <template>
 
     <!-- Card element  -->
-    <div class="card col-3">
+    <div class="card col-2">
         <img class="img-fluid" :src="content.image" alt="Recent work">
     </div>
 </template>
@@ -18,16 +18,8 @@ export default {
 @import "../style/variables.scss";
 
 .card {
-    border: 1px solid red;
+    border: none;
     
-
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        
-    }
-
 }
 
 </style>

@@ -1,7 +1,7 @@
 <template>
 
     <!-- Card element  -->
-    <div class="card col-3">
+    <div class="card col-2">
         <div class="icon-container">
             <i :class="content.icon"></i>
         </div>
@@ -22,15 +22,34 @@ export default {
 @import "../style/variables.scss";
 
 .card {
-    border: 1px solid red;
-    
+    border: none;
+    background-color: transparent;
     height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     .icon-container {
-    border: 1px solid blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 80px;
 
-        width: 50px;
-        height: 50px;
+        i {
+            font-size: 3rem;
+            color: $vibrantBrightSun;
+        }
+        
+    }
+
+    h2 {
+        color: $vibrantBrightSun;
+    }
+
+    p {
+        font-size: 1.1rem;
+        color: $primaryWhite;
     }
 }
 

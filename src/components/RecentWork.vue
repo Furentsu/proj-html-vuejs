@@ -2,7 +2,7 @@
 
     <!-- Section containing recent works  -->
     <section class="container-flex">
-        <div class="row">
+        <div class="row d-flex justify-content-center text-center">
             <div class="col-6">
                 <h2>Explore Recent Work</h2>
                 <div class="line"></div>
@@ -10,20 +10,20 @@
             </div>
         </div>
 
-            <div class="row">
+            <div class="row d-flex justify-content-center">
                 <RecentWorkCard v-for="(element,index) in cardsContent" :key="index" :content="element" />
             </div>
         
-            <div class="row">
-                <div class="col-3">
+            <div class="row d-flex justify-content-center">
+                <div class="col-2">
                     <div class="line-left"></div>
                 </div>
 
-                <div class="col-3">
-                    <h3>View all projects</h3>
+                <div class="col-2 text-center pt-5">
+                    <span>View all projects</span>
                 </div>
 
-                <div class="col-3">
+                <div class="col-2">
                     <div class="line-right"></div>
                 </div>
             </div>
@@ -61,9 +61,16 @@ export default {
 @import "../style/variables.scss";
 
 section {
-    border: 2px solid black;
-
     height: 550px;
+
+    h2 {
+        padding: 50px 0 20px 0;
+        color: $tuatara;
+    }
+
+    p {
+        color: $doveGrey;
+    }
 }
 
 </style>

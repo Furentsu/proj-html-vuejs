@@ -2,15 +2,15 @@
 
     <!-- Section containing the offered construction services  -->
     <section class="container-flex">
-        <div class="row">
-            <div class="col-6">
-                <h2>Specialists In Modern Construction</h2>
+        <div class="row d-flex justify-content-center text-center">
+            <div class="p-5 col-6">
+                <h2 class="fw-light">Specialists In Modern Construction</h2>
                 <div class="line"></div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio ea voluptate magni harum quod aperiam nesciunt suscipit placeat iure numquam quaerat ratione, aspernatur enim voluptatum consectetur hic molestias quo ducimus.</p>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row d-flex justify-content-center">
             <ConstructionProjectsCard v-for="(element,index) in cardsContent" :key="index" :content="element" />
         </div>
         
@@ -58,9 +58,16 @@ export default {
 @import "../style/variables.scss";
 
 section {
-    border: 1px solid black;
+    height: 600px;
 
-    height: 550px;
+    h2 {
+        padding: 50px 0 20px 0;
+        color: $tuatara;
+    }
+
+    p {
+        color: $doveGrey;
+    }
 }
 
 </style>

@@ -1,7 +1,7 @@
 <template>
 
     <!-- Card element  -->
-    <div class="card col-3">
+    <div class="card col-2">
         <div class="icon-container">
             <i :class="content.icon"></i>
         </div>
@@ -26,12 +26,29 @@ export default {
     border: 1px solid red;
     
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     .icon-container {
     border: 1px solid blue;
 
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
+
+        i {
+            font-size: 3.5rem;
+            color: $primaryWhite;
+        }
+    }
+
+    h2 {
+        font-size: .9rem;
+    }
+
+    p {
+        font-size: .9rem;
     }
 }
 

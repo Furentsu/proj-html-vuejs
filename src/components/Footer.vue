@@ -6,7 +6,6 @@
       <FooterContacts :contacts="contacts"/>
       <FooterMap />
 
-
     </div>
   </footer>
 </template>

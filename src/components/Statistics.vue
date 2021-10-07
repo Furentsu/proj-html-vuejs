@@ -2,7 +2,7 @@
 
   <!-- Section containing the the statistics regarding the services offered  -->
     <section class="container-flex">
-        <div class="row">
+        <div class="row d-flex justify-content-center">
             <StatisticsCard v-for="(element,index) in cardsContent" :key="index" :content="element" />
         </div>
     </section>
@@ -21,25 +21,25 @@ name:'Statistics',
         return {
             cardsContent: [
                 {   
-                    icon: 'fas fa-building',
+                    icon: 'far fa-paper-plane',
                     number: '3534',
                     title: 'Planning Applications',
                 
                 },
                 {   
-                    icon: 'fas fa-sync-alt',
+                    icon: 'far fa-building',
                     number: '896',
                     title: 'Completed Projects',
                 
                 },
                 {   
-                    icon: 'fas fa-home',
+                    icon: 'fas fa-users',
                     number: '172',
                     title: 'Trained Professionals',
                 
                 },
                 {   
-                    icon: 'fas fa-truck',
+                    icon: 'fas fa-globe',
                     number: '19',
                     title: 'International Offices',
                 
@@ -54,9 +54,13 @@ name:'Statistics',
 @import "../style/variables.scss";
 
 section {
-    border: 2px solid black;
+    border: 1px solid black;
+    
+    padding: 100px;
+    height: 450px;
+    background-image: url('../assets/images/home-244125289.jpg');
+    background-size: cover;
 
-    height: 350px;
 }
 
 </style>

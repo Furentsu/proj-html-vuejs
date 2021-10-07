@@ -2,7 +2,7 @@
 
     <!-- Section between the jumbotron and the construction services offered  -->
     <section class="construction-projects-top">
-        <h2>{{sectionContent.title}}</h2>
+        <h2 class="fw-light">{{sectionContent.title}}</h2>
         <button>{{sectionContent.buttonText}}</button>
     </section>
 </template>
@@ -26,17 +26,25 @@ export default {
 @import "../style/variables.scss";
 
 .construction-projects-top {
-    border: 2px solid black;
-
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
+    background-color: $vibrantBrightSun;
     height: 130px;
+
+    h2 {
+        color: $codGrey;
+    }
 
     button {
         position: absolute;
         bottom: -15px;
+        padding: 5px 25px;
+        border: 1px solid $primaryWhite;
+        background-color: $codGrey;
+        color: $primaryWhite;
+
     }
 
 }
