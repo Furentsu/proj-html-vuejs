@@ -40,6 +40,13 @@ export default {
 <style lang="scss" scoped>
 @import "../style/variables.scss";
 
+
+h3 {
+    color: $vibrantBrightSun;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
 .tweet {
     
     display: flex;
@@ -51,12 +58,22 @@ export default {
         text-align: center;
 
         img {
-            width: 50px;
+            width: 35px;
+            border-radius: 2em;
         }
     }
 
     .content-right {
         width: 80%;
+
+        h5,
+        p {
+            color: $primaryWhite;
+        }
+
+        span {
+            color: $doveGrey;
+        }
         
         .img-container {
             width: 100%;
@@ -69,6 +86,18 @@ export default {
         .low-icons {
             display: flex;
             justify-content: space-between;
+
+            .low-icons-left {
+                color: $doveGrey;
+
+                i {
+                    padding: 10px 25px 0 0;
+                }
+            }
+
+            .low-icons-right {
+                padding-top: 8px;
+            }
         }
     }
 }

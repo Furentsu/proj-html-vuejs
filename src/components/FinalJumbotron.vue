@@ -39,17 +39,35 @@ export default {
 
     .left-content,
     .right-content {
-        width: 30%;
+        width: 40%;
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        h1 {
+            color: $primaryWhite;
+        }
+
+        p {
+           color: $primaryWhite;
+        }
     }
 
     .left-content {
         .content {
             text-align: left;
+        }
+    }
+
+    .right-content {
+        button {
+            margin: 20px 10px;
+            border: none;
+            padding: 10px 50px;
+            background-color: $vibrantBrightSun;
+            color: $doveGrey;
         }
     }
 

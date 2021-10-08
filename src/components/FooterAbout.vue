@@ -1,7 +1,7 @@
 <template>
   <div class="col-3">
       <div class="logo-container">
-         <img src="../assets/images/construction_logo_retina.png" alt="Avada Construction">
+         <img src="../assets/images/footer-logo.png" alt="Avada Construction">
       </div>
       
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error deserunt incidunt minus aliquam molestias nobis, natus laborum nam autem odit aliquid impedit soluta facere unde est praesentium numquam asperiores voluptatum?</p>
@@ -22,6 +22,18 @@ export default {
     img {
         width: 180px;
     }
+}
+
+p {
+    color: $doveGrey;
+    padding: 25px 0 10px 0;
+}
+
+button {
+    border: none;
+    padding: 10px 50px;
+    background-color: $vibrantBrightSun;
+    color: $doveGrey;
 }
 
 </style>

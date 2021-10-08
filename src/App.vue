@@ -3,6 +3,7 @@
     <Header />
     <Main />
     <Footer />
+    <CopyrightSection />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
+import CopyrightSection from './components/CopyrightSection.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Main,
-    Footer
+    Footer,
+    CopyrightSection
   }
 }
 </script>
@@ -30,5 +33,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
 }
 </style>

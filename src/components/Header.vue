@@ -89,6 +89,7 @@ header {
 
               a {
                 text-decoration: none;
+                color: $doveGrey;
                 margin: 0 0 0 25px;
               }
           }
@@ -107,6 +108,9 @@ header {
       padding: 8px 30px;
       text-transform: uppercase;
       font-size: .8rem;
+      background-color: $brightSun;
+      color: $doveGrey;
+            
     }
 }
 }

@@ -28,12 +28,27 @@ export default {
 <style lang="scss" scoped>
 @import "../style/variables.scss";
 
+h3 {
+    color: $vibrantBrightSun;
+    font-size: 1.2rem;
+}
+
 ul {
     list-style: none;
     padding-left: 0;
 
     li {
         display: flex;
+        color: $doveGrey;
+        padding: 10px 0 10px 0;
+
+        .content {
+            font-size: .9rem;
+        }
+
+        .icon-container {
+            padding-right: 10px;
+        }
     }
 }
 

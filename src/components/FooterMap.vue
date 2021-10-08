@@ -18,9 +18,15 @@ export default {
 <style lang="scss" scoped>
 @import "../style/variables.scss";
 
+h3 {
+    color: $vibrantBrightSun;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
 .img-container {
     height: 300px;
-    border: 1px solid red;
+    border: 1px solid white;
 }
 
 </style>

@@ -70,7 +70,8 @@ export default {
 @import "../style/variables.scss";
 
 footer {
-  height: 500px;
+  background-color: $codGrey;
+  padding: 80px;
 }
 
 </style>

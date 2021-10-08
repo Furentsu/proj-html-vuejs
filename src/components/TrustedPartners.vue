@@ -2,7 +2,7 @@
 
     <!-- Section containing trusted partners  -->
     <section class="container-flex">
-        <div class="row">
+        <div class="row d-flex justify-content-center text-center">
             <div class="col-6">
                 <h2>Trusted Partners</h2>
                 <div class="line"></div>
@@ -10,7 +10,7 @@
             </div>
         </div>
 
-        <div class="row row-cols-5">
+        <div class="row row-cols-5 d-flex justify-content-center">
             <TrustedPartnersCard v-for="(element,index) in cardsContent" :key="index" :content="element" />
         </div>
         
@@ -54,9 +54,16 @@ export default {
 @import "../style/variables.scss";
 
 section {
-    border: 1px solid black;
+    height: 500px;
 
-    height: 550px;
+    h2 {
+        padding: 50px 0 20px 0;
+        color: $tuatara;
+    }
+
+    p {
+        color: $doveGrey;
+    }
 }
 
 </style>
