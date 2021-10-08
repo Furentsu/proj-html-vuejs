@@ -8,7 +8,7 @@
           </div>
 
           <div class="content-right position-relative">
-              <h5>Theme Fusion</h5>
+              <h5>ThemeFusion</h5>
               <span>@Theme_Fusion</span>
               
               <img class="position-absolute tweet-bird" src="../assets/images/image (1).svg" alt="Twitter icon">
@@ -73,10 +73,12 @@ h3 {
         h5,
         p {
             color: $primaryWhite;
+             font-size: .8rem;
         }
 
         h5 {
             margin: 0;
+             font-size: .9rem;
         }
 
         .tweet-bird {
@@ -87,7 +89,7 @@ h3 {
 
         span {
             color: $doveGrey;
-
+             font-size: .8rem;
         }
         
         .img-container {
@@ -106,7 +108,7 @@ h3 {
                 color: $doveGrey;
 
                 i {
-                    padding: 10px 25px 0 0;
+                    padding: 10px 20px 0 0;
                 }
             }
 

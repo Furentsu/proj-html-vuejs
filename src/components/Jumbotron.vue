@@ -60,6 +60,7 @@ export default {
             margin: 20px 10px;
             border: none;
             padding: 10px 50px;
+            text-transform: uppercase;
 
             &:nth-of-type(1) {
                 background-color: $codGrey;
@@ -73,6 +74,8 @@ export default {
 
             &:nth-of-type(2) {
                 background-color: $brightSun;
+                color: $doveGrey;
+
 
                 &:hover {
                     background-color: $codGrey;

@@ -4,7 +4,7 @@
       <!-- Left content of the jumbotron -->
        <div class="left-content float-start">
            <div class="content">
-                <h1>Building inspiring spaces</h1>
+                <h2 class="fw-light">Building inspiring spaces</h2>
                 <div class="line"></div>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem repellat, saepe maxime doloribus in voluptatem amet consequuntur beatae aspernatur ut possimus nobis rem, qui at assumenda fuga, quos totam iste!</p>
            </div>
@@ -47,7 +47,7 @@ export default {
         justify-content: center;
         align-items: center;
 
-        h1 {
+        h2 {
             color: $primaryWhite;
         }
 
@@ -76,6 +76,7 @@ export default {
             padding: 10px 50px;
             background-color: $vibrantBrightSun;
             color: $doveGrey;
+            text-transform: uppercase;
 
             &:hover {
                     background-color: $codGrey;

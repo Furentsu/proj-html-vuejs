@@ -44,6 +44,8 @@ export default {
         border: 1px solid $primaryWhite;
         background-color: $codGrey;
         color: $primaryWhite;
+        text-transform: uppercase;
+        font-size: .9rem;
 
         &:hover {
             color: $codGrey;

@@ -5,7 +5,7 @@
         <div class="icon-container">
             <i :class="content.icon"></i>
         </div>
-        <h2 class="fw-light">{{content.title}}</h2>
+        <h2 class="fw-light pt-2">{{content.title}}</h2>
         <p>{{content.paragraph}}</p>
     </div>
 </template>

@@ -34,6 +34,8 @@ button {
     padding: 10px 50px;
     background-color: $vibrantBrightSun;
     color: $doveGrey;
+    text-transform: uppercase;
+
 
     &:hover {
         border: 2px solid $primaryWhite;

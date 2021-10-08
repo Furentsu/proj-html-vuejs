@@ -31,22 +31,22 @@ export default {
                 {   
                     icon: 'fas fa-building',
                     title: 'Buildings',
-                    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et nulla quam, officia, fuga accusantium est, rem vel vitae cum velit. Quos enim cum laudantium repellendus ratione porro et vero.'
+                    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
                 },
                 {   
                     icon: 'fas fa-sync-alt',
                     title: 'Renovate',
-                    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et nulla quam, officia, fuga accusantium est, rem vel vitae cum velit. Quos enim cum laudantium repellendus ratione porro et vero.'
+                    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
                 },
                 {   
                     icon: 'fas fa-home',
                     title: 'Construct',
-                    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et nulla quam, officia, fuga accusantium est, rem vel vitae cum velit. Quos enim cum laudantium repellendus ratione porro et vero.'
+                    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
                 },
                 {   
                     icon: 'fas fa-truck',
                     title: 'Exclusive',
-                    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et nulla quam, officia, fuga accusantium est, rem vel vitae cum velit. Quos enim cum laudantium repellendus ratione porro et vero.'
+                    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
                 }
             ]
         }
