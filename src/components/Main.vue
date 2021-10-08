@@ -6,7 +6,7 @@
        <Statistics />
        <RecentWork />
        <CoreValues />
-       <!-- <Slider /> -->
+       <Slider />
        <LatestNews />
        <TrustedPartners />
        <FinalJumbotron />
@@ -20,7 +20,7 @@ import ConstructionProjectsBottom from './ConstructionProjectsBottom.vue'
 import Statistics from './Statistics.vue'
 import RecentWork from './RecentWork.vue'
 import CoreValues from './CoreValues.vue'
-// Slider
+import Slider from './Slider.vue'
 import LatestNews from './LatestNews.vue'
 import TrustedPartners from './TrustedPartners.vue'
 import FinalJumbotron from './FinalJumbotron.vue'
@@ -38,7 +38,7 @@ export default {
       Statistics,
       RecentWork,
       CoreValues,
-      // Slider,
+      Slider,
       LatestNews,
       TrustedPartners,
       FinalJumbotron
