@@ -46,6 +46,13 @@ export default {
         color: $primaryWhite;
     }
 
+    .line {
+        height: 2px;
+        width: 30%;
+        margin: 20px auto;
+        background-color: $vibrantBrightSun;
+    }
+
     .image-container {
         width: 120px;
         margin: auto;

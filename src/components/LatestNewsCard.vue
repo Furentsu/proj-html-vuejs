@@ -49,6 +49,13 @@ export default {
         span {
             font-size: .9rem;
         }
+
+        .line {
+            height: 2px;
+            width: 100%;
+            margin: 20px auto;
+            background-color: rgba($silver,.2);
+        }
     }
 
 }

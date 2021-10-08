@@ -7,7 +7,7 @@
         </div>
         <div class="line"></div>
         <h2>{{content.title}}</h2>
-        <p>{{content.paragraph}}</p>
+        <p class="text-center">{{content.paragraph}}</p>
     </div>
 </template>
 
@@ -60,7 +60,15 @@ export default {
             font-size: 2.5rem;
             color: $primaryWhite;
         }
+
     }
+
+    .line {
+            height: 2px;
+            width: 10%;
+            margin: 20px auto;
+            background-color: rgba($codGrey,.2);
+        }
 
     h2 {
         font-size: .9rem;

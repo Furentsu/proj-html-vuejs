@@ -64,10 +64,20 @@ export default {
             &:nth-of-type(1) {
                 background-color: $codGrey;
                 color: $primaryWhite;
+
+                &:hover {
+                    background-color: $brightSun;
+                    color: $codGrey;
+                }
             }
 
             &:nth-of-type(2) {
                 background-color: $brightSun;
+
+                &:hover {
+                    background-color: $codGrey;
+                    color: $primaryWhite;
+                }
             }
         }
 

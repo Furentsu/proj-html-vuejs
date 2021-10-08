@@ -58,6 +58,13 @@ export default {
     .left-content {
         .content {
             text-align: left;
+
+            .line {
+                height: 2px;
+                width: 30%;
+                margin: 25px 0;
+                background-color: $vibrantBrightSun;
+             }
         }
     }
 
@@ -68,6 +75,11 @@ export default {
             padding: 10px 50px;
             background-color: $vibrantBrightSun;
             color: $doveGrey;
+
+            &:hover {
+                    background-color: $codGrey;
+                    color: $primaryWhite;
+                }
         }
     }
 

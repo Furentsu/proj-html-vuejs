@@ -14,16 +14,16 @@
                 <RecentWorkCard v-for="(element,index) in cardsContent" :key="index" :content="element" />
             </div>
         
-            <div class="row d-flex justify-content-center">
-                <div class="col-2">
+            <div class="row d-flex justify-content-center pt-5 pb-5">
+                <div class="left col-2">
                     <div class="line-left"></div>
                 </div>
 
-                <div class="col-2 text-center pt-5">
+                <div class="col-2 text-center">
                     <span>View all projects</span>
                 </div>
 
-                <div class="col-2">
+                <div class="right col-2">
                     <div class="line-right"></div>
                 </div>
             </div>
@@ -61,14 +61,41 @@ export default {
 @import "../style/variables.scss";
 
 section {
-    height: 550px;
-
     h2 {
-        padding: 50px 0 20px 0;
+        padding-top: 50px;
         color: $tuatara;
     }
 
+    .line {
+        height: 2px;
+        width: 30%;
+        margin: 20px auto;
+        background-color: $vibrantBrightSun;
+    }
+
     p {
+        color: $doveGrey;
+    }
+
+    .left,
+    .right {
+        
+        .line-left,
+        .line-right {
+            height: 20px;
+            width: 100%;
+        }
+
+        .line-right {
+            border-bottom: 2px solid rgba($silver,.2);
+        }
+
+        .line-left {
+            border-top: 2px solid rgba($silver,.2);
+        }
+    }
+
+    span {
         color: $doveGrey;
     }
 }

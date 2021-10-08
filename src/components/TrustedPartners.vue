@@ -57,8 +57,15 @@ section {
     height: 500px;
 
     h2 {
-        padding: 50px 0 20px 0;
+        padding-top: 50px;
         color: $tuatara;
+    }
+
+    .line {
+        height: 2px;
+        width: 30%;
+        margin: 20px auto;
+        background-color: $vibrantBrightSun;
     }
 
     p {

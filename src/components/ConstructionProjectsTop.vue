@@ -45,6 +45,12 @@ export default {
         background-color: $codGrey;
         color: $primaryWhite;
 
+        &:hover {
+            color: $codGrey;
+            background-color: $primaryWhite;
+            border: 1px solid $primaryBlack;
+        }
+
     }
 
 }

@@ -30,10 +30,15 @@ p {
 }
 
 button {
-    border: none;
+    border: 2px solid transparent;
     padding: 10px 50px;
     background-color: $vibrantBrightSun;
     color: $doveGrey;
+
+    &:hover {
+        border: 2px solid $primaryWhite;
+        color: $primaryWhite;
+    }
 }
 
 </style>

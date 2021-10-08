@@ -20,6 +20,7 @@ export default {
 .card {
     border: none;
     
+    
 }
 
 </style>

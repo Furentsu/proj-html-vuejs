@@ -31,25 +31,25 @@ export default {
                 {   
                     icon: 'fas fa-home',
                     title: 'Great Services',
-                    paragraph: 'lorem',
+                    paragraph: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
                     bg: 'bali-hai'
                 },
                 {   
                     icon: 'fas fa-cog',
                     title: 'Highest Standards',
-                    paragraph: 'lorem',
+                    paragraph: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
                     bg: 'ship-cove'
                 },
                 {   
                     icon: 'fas fa-users',
                     title: 'Professional Team',
-                    paragraph: 'lorem',
+                    paragraph: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
                     bg: 'orange'
                 },
                 {   
                     icon: 'fas fa-lightbulb',
                     title: 'Creative Solutions',
-                    paragraph: 'lorem',
+                    paragraph: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
                     bg: 'olive'
                 }
             ]
@@ -62,12 +62,19 @@ export default {
 @import "../style/variables.scss";
 
 section {
-    height: 600px;
+    
     background-color: rgba($silver,.2);
 
     h2 {
-        padding: 50px 0 20px 0;
+        padding-top: 50px;
         color: $tuatara;
+    }
+
+    .line {
+        height: 2px;
+        width: 30%;
+        margin: 20px auto;
+        background-color: $vibrantBrightSun;
     }
 
     p {

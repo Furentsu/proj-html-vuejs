@@ -91,6 +91,10 @@ header {
                 text-decoration: none;
                 color: $doveGrey;
                 margin: 0 0 0 25px;
+
+                &:hover {
+                  color: $brightSun;
+                }
               }
           }
       }
@@ -110,7 +114,12 @@ header {
       font-size: .8rem;
       background-color: $brightSun;
       color: $doveGrey;
-            
+
+      &:hover {
+        color: $primaryWhite;
+        background-color: $codGrey;
+
+      }
     }
 }
 }
