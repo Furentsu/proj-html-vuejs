@@ -54,8 +54,6 @@ name:'Statistics',
 @import "../style/variables.scss";
 
 section {
-    border: 1px solid black;
-    
     padding: 100px;
     height: 450px;
     background-image: url('../assets/images/home-244125289.jpg');

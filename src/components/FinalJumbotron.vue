@@ -1,5 +1,5 @@
 <template>
-    <div class="final-jumbo">
+    <div class="final-jumbo pt-5 pb-5">
 
       <!-- Left content of the jumbotron -->
        <div class="left-content float-start">
@@ -31,7 +31,7 @@ export default {
 .final-jumbo {
     display: flex;
     justify-content: center;
-    height: 400px;
+    
     background-image: url('../assets/images/about-call-to-action-57862405.jpg');
     background-size: cover;
     background-position: bottom;
@@ -41,6 +41,7 @@ export default {
     .right-content {
         width: 40%;
         height: 100%;
+        padding: 50px 0;
         display: flex;
         flex-direction: column;
         justify-content: center;

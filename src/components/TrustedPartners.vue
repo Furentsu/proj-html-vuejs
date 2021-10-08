@@ -54,8 +54,6 @@ export default {
 @import "../style/variables.scss";
 
 section {
-    height: 500px;
-
     h2 {
         padding-top: 50px;
         color: $tuatara;

@@ -1,12 +1,8 @@
 <template>
-    <section class="slider d-flex justify-content-center align-items-center container-flex">
+    <section class="slider d-flex justify-content-center align-items-center container-flex pt-5 pb-5">
         <div class="row d-flex justify-content-center text-center">
             <SliderCard :card="cardsContent"/>
         </div>
-
-        <!-- <nav>
-
-        </nav> -->
 
     </section>
 </template>
@@ -43,7 +39,6 @@ export default {
 @import "../style/variables.scss";
 
 .slider {
-    height: 500px; 
     background-image: url('../assets/images/home-parallax-144609983.jpg');
     background-size: cover;
     background-position: center;

@@ -40,7 +40,7 @@ ul {
     li {
         display: flex;
         color: $doveGrey;
-        padding: 10px 0 10px 0;
+        padding: 8px 0 10px 0;
 
         .content {
             font-size: .9rem;

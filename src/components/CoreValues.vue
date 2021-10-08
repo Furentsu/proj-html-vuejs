@@ -10,7 +10,7 @@
             </div>
         </div>
 
-        <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center pb-5">
             <ValuesCard v-for="(element,index) in cardsContent" :key="index" :content="element" />
         </div>
         
@@ -62,7 +62,6 @@ export default {
 @import "../style/variables.scss";
 
 section {
-    
     background-color: rgba($silver,.2);
 
     h2 {

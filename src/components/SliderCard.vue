@@ -54,7 +54,7 @@ export default {
     }
 
     .image-container {
-        width: 120px;
+        width: 100px;
         margin: auto;
 
         img {

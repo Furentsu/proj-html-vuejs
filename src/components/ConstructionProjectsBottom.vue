@@ -10,8 +10,8 @@
             </div>
         </div>
 
-        <div class="row d-flex justify-content-center">
-            <ConstructionProjectsCard v-for="(element,index) in cardsContent" :key="index" :content="element" />
+        <div class="row d-flex justify-content-center pb-5">
+            <ConstructionProjectsCard class="mb-5" v-for="(element,index) in cardsContent" :key="index" :content="element" />
         </div>
         
     </section>
@@ -31,22 +31,22 @@ export default {
                 {   
                     icon: 'fas fa-building',
                     title: 'Buildings',
-                    paragraph: 'lorem'
+                    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et nulla quam, officia, fuga accusantium est, rem vel vitae cum velit. Quos enim cum laudantium repellendus ratione porro et vero.'
                 },
                 {   
                     icon: 'fas fa-sync-alt',
                     title: 'Renovate',
-                    paragraph: 'lorem'
+                    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et nulla quam, officia, fuga accusantium est, rem vel vitae cum velit. Quos enim cum laudantium repellendus ratione porro et vero.'
                 },
                 {   
                     icon: 'fas fa-home',
                     title: 'Construct',
-                    paragraph: 'lorem'
+                    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et nulla quam, officia, fuga accusantium est, rem vel vitae cum velit. Quos enim cum laudantium repellendus ratione porro et vero.'
                 },
                 {   
                     icon: 'fas fa-truck',
                     title: 'Exclusive',
-                    paragraph: 'lorem'
+                    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et nulla quam, officia, fuga accusantium est, rem vel vitae cum velit. Quos enim cum laudantium repellendus ratione porro et vero.'
                 }
             ]
         }
@@ -58,8 +58,6 @@ export default {
 @import "../style/variables.scss";
 
 section {
-    height: 600px;
-
     h2 {
         padding-top: 50px;
         color: $tuatara;

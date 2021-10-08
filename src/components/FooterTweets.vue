@@ -7,9 +7,12 @@
               <img src="../assets/images/3a74ce3d0532b7773b174c45ca3bd05a_bigger.png" alt="Tweet user image">
           </div>
 
-          <div class="content-right">
+          <div class="content-right position-relative">
               <h5>Theme Fusion</h5>
               <span>@Theme_Fusion</span>
+              
+              <img class="position-absolute tweet-bird" src="../assets/images/image (1).svg" alt="Twitter icon">
+              
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatum fugit tenetur, at debitis ab ad unde facere odio odit officiis laborum aperiam illo nulla nostrum est ratione ut quo.</p>
               <div class="img-container">
                 <img src="../assets/images/En2TRxLW4AEiWUN.jpeg" alt="WP Engine 30% off sale">
@@ -53,26 +56,38 @@ h3 {
     width: 100%;
 
     .icon {
-        width: 20%;
+        width: 10%;
         height: 100%;
         text-align: center;
 
         img {
-            width: 35px;
+            width: 100%;
             border-radius: 2em;
         }
     }
 
     .content-right {
-        width: 80%;
+        width: 90%;
+        padding-left: 5px;
 
         h5,
         p {
             color: $primaryWhite;
         }
 
+        h5 {
+            margin: 0;
+        }
+
+        .tweet-bird {
+            top:0;
+            right: 0;
+            width: 20px;
+        }
+
         span {
             color: $doveGrey;
+
         }
         
         .img-container {

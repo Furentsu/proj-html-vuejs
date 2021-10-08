@@ -1,10 +1,10 @@
 <template>
   <footer class="container-flex">
-    <div class="row">
-      <div class="col-8 left-content">
+    <div class="row d-flex align-items-center">
+      <div class="col-8 left-content d-flex align-items-center">
         <p>copyright 2012 - 2015 avada theme by <span> theme fusion</span> | all rights reserved | powered by <span> wordpress</span></p>
       </div>
-      <div class="col-4 right-content">
+      <div class="col-4 right-content ">
         <i class="fab fa-facebook-f"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-youtube"></i>
@@ -24,7 +24,7 @@ export default {
 @import "../style/variables.scss";
 
 footer {
-    height: 80px;
+    padding: 20px 0;
     background-color: black;
 
     .row {
@@ -42,8 +42,12 @@ footer {
     .left-content {
       color: $doveGrey;
       text-transform: uppercase;
-      font-size: .8rem;
+      font-size: .7rem;
 
+      p {
+        margin-bottom: 0;
+      }
+      
       span {
         color: $primaryWhite;
       }
@@ -51,7 +55,7 @@ footer {
 
     .right-content {
       i {
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: white;
         padding: 0 10px;
       }

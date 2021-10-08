@@ -3,7 +3,7 @@
       <h3>Find us</h3>
 
       <div class="img-container">
-         <img src="" alt="Company's location">
+         <img src="../assets/images/construction_map_pin.png" alt="Company's location">
       </div>
       
   </div>
@@ -25,8 +25,11 @@ h3 {
 }
 
 .img-container {
-    height: 300px;
     border: 1px solid white;
+
+    img {
+        width: 100%;
+    }
 }
 
 </style>

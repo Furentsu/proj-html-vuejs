@@ -71,7 +71,7 @@ export default {
 
 footer {
   background-color: $codGrey;
-  padding: 80px;
+  padding: 70px;
 }
 
 </style>
