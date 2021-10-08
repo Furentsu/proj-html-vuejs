@@ -11,13 +11,14 @@
 
        <!-- Top right squares with demos and sales -->
        <div class="jumbo-squares">
-            <div class="demos">
-
+            <div class="demos d-flex flex-column">
+                <i class="fab fa-connectdevelop"></i>
                <span>Demos</span>
             </div>
 
-            <div class="sales">
-                
+            <div class="sales d-flex flex-column">
+               <i class="fas fa-dollar-sign"></i> 
+               <span class="fw-bolder">39</span>
                <span>On sale</span>
             </div>
        </div>
@@ -82,9 +83,47 @@ export default {
         .demos,
         .sales {
             margin: 10px 0;
-            width: 70px;
-            height: 70px;
+            padding: 5px;
             color: $primaryWhite;
+        }
+
+        .demos {
+            background-color: $primaryWhite;
+            color: black;
+            border-radius: 5px;
+
+            span {
+                font-size: .9rem;
+            }
+
+            i {
+                font-size: 1.5rem;
+            }
+        }
+
+        .sales {
+            background-color: $primaryWhite;
+            color: $green;
+            border-radius: 5px;
+            position: relative;
+
+            span:nth-of-type(1) {
+                font-size: 1.12rem;
+                color: $green;
+            }
+
+            span:nth-of-type(2) {
+                font-size: .9rem;
+                color: black;
+
+            }
+
+            i {
+                font-size: .8rem;
+                position: absolute;
+                top: 8px;
+                left: 10px;
+            }
         }
     }
 

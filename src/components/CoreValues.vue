@@ -31,22 +31,26 @@ export default {
                 {   
                     icon: 'fas fa-home',
                     title: 'Great Services',
-                    paragraph: 'lorem'
+                    paragraph: 'lorem',
+                    bg: 'bali-hai'
                 },
                 {   
                     icon: 'fas fa-cog',
                     title: 'Highest Standards',
-                    paragraph: 'lorem'
+                    paragraph: 'lorem',
+                    bg: 'ship-cove'
                 },
                 {   
                     icon: 'fas fa-users',
                     title: 'Professional Team',
-                    paragraph: 'lorem'
+                    paragraph: 'lorem',
+                    bg: 'orange'
                 },
                 {   
                     icon: 'fas fa-lightbulb',
                     title: 'Creative Solutions',
-                    paragraph: 'lorem'
+                    paragraph: 'lorem',
+                    bg: 'olive'
                 }
             ]
         }

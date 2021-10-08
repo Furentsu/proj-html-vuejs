@@ -70,7 +70,6 @@ export default {
 @import "../style/variables.scss";
 
 section {
-    border: 1px solid black;
     background-color: rgba($silver,.2);
 
     h2 {
